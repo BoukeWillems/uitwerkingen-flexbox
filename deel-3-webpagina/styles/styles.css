@@ -1,1 +1,108 @@
-/*Schrijf hier jouw css*/
+/*Hallo Reviewer, er zijn een paar dingen die mij niet gelukt zijn of niet op de juiste manier.
+de tekst in de rode boxen blijft bij mij niet in de vakken wanneer je de browser kleiner maakt.
+Mocht jij daar wel het antwoord op weten dan graag dat erbij commenten dat ik het zelf kan aanpassen.
+alvast bedankt voor je review. alle tips zijn welkom!
+groetjes, Bouke 🙂 */
+
+
+body {
+    background-color: #F2F3D9;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* NAV SECTION */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #030027;
+    height: 5vh;
+}
+
+.nav-title {
+    flex-grow: 1;
+    text-align: left;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 0;
+    margin-left: auto;
+}
+
+.nav-links p {
+    margin: 0 10px;
+    color: white;
+}
+
+/*HEADER SECTION*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    margin-bottom: 5vh;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+/*MAIN SECTION*/
+
+Main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    height: 350px;
+}
+
+.box1 {
+    background-color: #C16E70;
+    max-width: 280px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.p1 {
+
+    margin: 175px 10px 10px;
+}
+
+.p2 {
+
+    margin: 175px 10px 10px;
+}
+
+.p3 {
+
+    margin: 175px 10px 10px;
+}
+
+.box2 {
+    background-color: #C16E70;
+    max-width: 280px;
+    height: 350px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.box3 {
+    background-color: #C16E70;
+    max-width: 280px;
+    height: 350px;
+    border-radius: 5px;
+    text-align: center;
+}
+
